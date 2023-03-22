@@ -3,12 +3,12 @@
 A little package that brings sound to any Go application. Suitable for playback and audio-processing.
 
 ```
-go get -u github.com/faiface/beep
+go get -u github.com/samhocevar/beep
 ```
 
 ## Features
 
-Beep is built on top of its [Streamer](https://godoc.org/github.com/faiface/beep#Streamer) interface, which is like [io.Reader](https://golang.org/pkg/io/#Reader), but for audio. It was one of the best design decisions I've ever made and it enabled all the rest of the features to naturally come together with not much code.
+Beep is built on top of its [Streamer](https://godoc.org/github.com/samhocevar/beep#Streamer) interface, which is like [io.Reader](https://golang.org/pkg/io/#Reader), but for audio. It was one of the best design decisions I've ever made and it enabled all the rest of the features to naturally come together with not much code.
 
 - **Decode and play WAV, MP3, OGG, and FLAC.**
 - **Encode and save WAV.**
@@ -29,9 +29,9 @@ The [Wiki](https://github.com/faiface/beep/wiki) contains a handful of tutorials
 
 ## Examples
 
-| [Speedy Player](https://github.com/faiface/beep/tree/master/examples/speedy-player) | [Doppler Stereo Room](https://github.com/faiface/beep/tree/master/examples/doppler-stereo-room) |
+| [Speedy Player](https://github.com/samhocevar/beep/tree/master/examples/speedy-player) | [Doppler Stereo Room](https://github.com/samhocevar/beep/tree/master/examples/doppler-stereo-room) |
 | --- | --- |
-| ![Speedy Player](https://github.com/faiface/beep/blob/master/examples/speedy-player/screenshot.png) | ![Doppler Stereo Room](https://github.com/faiface/beep/blob/master/examples/doppler-stereo-room/screenshot.png) |
+| ![Speedy Player](https://github.com/samhocevar/beep/blob/master/examples/speedy-player/screenshot.png) | ![Doppler Stereo Room](https://github.com/samhocevar/beep/blob/master/examples/doppler-stereo-room/screenshot.png) |
 
 ## Dependencies
 
@@ -41,7 +41,7 @@ Running an already built application should work with no extra dependencies.
 
 ## Licence
 
-[MIT](https://github.com/faiface/beep/blob/master/LICENSE)
+[MIT](https://github.com/samhocevar/beep/blob/master/LICENSE)
 
 ## Projects using beep
 

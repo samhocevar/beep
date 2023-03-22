@@ -4,7 +4,7 @@ import (
 	"errors"
 	"math"
 
-	"github.com/faiface/beep"
+	"github.com/samhocevar/beep"
 )
 
 type sawGenerator struct {

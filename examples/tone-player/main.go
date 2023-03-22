@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/faiface/beep"
-	"github.com/faiface/beep/generators"
-	"github.com/faiface/beep/speaker"
+	"github.com/samhocevar/beep"
+	"github.com/samhocevar/beep/generators"
+	"github.com/samhocevar/beep/speaker"
 )
 
 func usage() {
