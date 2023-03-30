@@ -2,9 +2,19 @@
 
 A little package that brings sound to any Go application. Suitable for playback and audio-processing.
 
-```
+```cmd
 go get -u github.com/samhocevar/beep
 ```
+
+This is a fork of the [original Beep](https://github.com/faiface/beep) which has not been updated since March 2022.
+
+## ✨ New features
+
+## 🛠 Fixed issues
+
+- [`81a81132`](https://github.com/samhocevar/beep/commit/81a811327e2e631134893fc7f7cb67d710e2392e): fix a freeze when seeking into Ogg/Vorbis files
+- [`c9d71576`](https://github.com/samhocevar/beep/commit/c9d71576f54ad5ec7e0f6794944265373e2a37f0): fix wrong playback speed for mono and 5.1 Ogg/Vorbis files  ([`#154`](https://github.com/faiface/beep/pull/154), [`#139`](https://github.com/faiface/beep/pull/139))
+- [`1a828691`](https://github.com/samhocevar/beep/commit/1a82869175674f6be990b726c669b027e6858d51): fix incorrect WAV header when writing to file ([`#144`](https://github.com/faiface/beep/pull/144))
 
 ## Features
 
